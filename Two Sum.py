@@ -19,6 +19,7 @@ class Solution(object):
                 return [num_dictionary[complementary], i]
             num_dictionary[num] = i
         return []
+
     def twoSumReturnNumber(self, nums, target):
         """
         :type nums: List[int]:type target: int:rtype: List[int]
